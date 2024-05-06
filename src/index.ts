@@ -1,6 +1,3 @@
-// An example of applying the Overlapping Subproblems concept in JavaScript.
-// Consider the task of calculating Fibonacci numbers
-
 // With recursion (bad)
 // BIG O(2^n)
 export function fibonacciRecursive(n: number): { result: number; calls: number } {
